@@ -1,0 +1,185 @@
+[
+  {
+    "category_id": 1,
+    "name": "Programmable Robots",
+    "robots": [
+      {
+        "id": 1,
+        "name": "RoboSpark",
+        "picture": "robo_spark.jpg",
+        "seller_name": "TechToys Inc.",
+        "seller_email": "info@techtoys.com",
+        "price": 39.99,
+        "rating": 4.5,
+        "quantity": 10,
+        "description": "RoboSpark is a programmable robot that sparks creativity and learning. It features advanced programming capabilities, interactive sensors, and a vibrant LED display. With RoboSpark, kids can learn coding while having fun exploring various commands and creating exciting robot behaviors."
+      },
+      {
+        "id": 2,
+        "name": "TurboBot",
+        "picture": "turbo_bot.jpg",
+        "seller_name": "Playtech Toys",
+        "seller_email": "sales@playtechtoys.com",
+        "price": 59.99,
+        "rating": 4.2,
+        "quantity": 8,
+        "description": "Get ready to race with TurboBot! This programmable robot is built for speed and excitement. It can perform lightning-fast maneuvers, follow custom paths, and compete in thrilling robot races. With its sleek design and cutting-edge technology, TurboBot guarantees hours of high-speed fun!"
+      },
+      {
+        "id": 3,
+        "name": "AstroTech",
+        "picture": "astro_tech.jpg",
+        "seller_name": "RoboToys Corp.",
+        "seller_email": "sales@robotoys.com",
+        "price": 79.99,
+        "rating": 4.8,
+        "quantity": 12,
+        "description": "Embark on interstellar adventures with AstroTech! This programmable robot comes equipped with astronomical sensors, a built-in telescope, and educational space exploration software. AstroTech ignites curiosity and provides an immersive learning experience about the wonders of the cosmos."
+      },
+      {
+        "id": 4,
+        "name": "CodeMaster",
+        "picture": "code_master.jpg",
+        "seller_name": "TechToys Inc.",
+        "seller_email": "info@techtoys.com",
+        "price": 49.99,
+        "rating": 4.4,
+        "quantity": 15,
+        "description": "Become a coding master with CodeMaster! This programmable robot offers an intuitive visual programming interface, making it easy for kids to learn programming concepts. With CodeMaster, children can unleash their creativity, solve puzzles, and develop computational thinking skills."
+      },
+      {
+        "id": 5,
+        "name": "TechWhiz",
+        "picture": "tech_whiz.jpg",
+        "seller_name": "RoboToys Corp.",
+        "seller_email": "sales@robotoys.com",
+        "price": 89.99,
+        "rating": 4.6,
+        "quantity": 7,
+        "description": "Unleash your inner tech whiz with this advanced programmable robot! TechWhiz combines cutting-edge technology with hands-on learning. It features an array of sensors, an interactive touchscreen, and the ability to program complex tasks. TechWhiz opens up endless possibilities for innovation and exploration."
+      }
+    ]
+  },
+  {
+    "category_id": 2,
+    "name": "Remote-Controlled Robots",
+    "robots": [
+      {
+        "id": 6,
+        "name": "MechaRider",
+        "picture": "mecha_rider.jpg",
+        "seller_name": "Playtech Toys",
+        "seller_email": "sales@playtechtoys.com",
+        "price": 49.99,
+        "rating": 4.3,
+        "quantity": 12,
+        "description": "Take control of the MechaRider and go on exciting remote-controlled adventures! This robot features realistic movements, versatile controls, and an ergonomic remote. With MechaRider, you can conquer any terrain, perform stunts, and explore the world of robotics."
+      },
+      {
+        "id": 7,
+        "name": "RoboCompanion",
+        "picture": "robo_companion.jpg",
+        "seller_name": "TechToys Inc.",
+        "seller_email": "info@techtoys.com",
+        "price": 69.99,
+        "rating": 4.6,
+        "quantity": 9,
+        "description": "Meet your new robotic friend, RoboCompanion! This remote-controlled robot offers interactive features, expressive LED eyes, and a wide range of motions. RoboCompanion can dance, talk, and even play games. It's the perfect companion for fun and adventure!"
+      },
+      {
+        "id": 8,
+        "name": "SpeedsterBot",
+        "picture": "speedster_bot.jpg",
+        "seller_name": "RoboToys Corp.",
+        "seller_email": "sales@robotoys.com",
+        "price": 29.99,
+        "rating": 4.1,
+        "quantity": 15,
+        "description": "Zoom into action with SpeedsterBot! This remote-controlled robot is built for speed and agility. It can race, spin, and perform impressive tricks with ease. SpeedsterBot's sleek design and responsive controls make it the ultimate choice for thrilling remote-controlled fun!"
+      },
+      {
+        "id": 9,
+        "name": "RacerX",
+        "picture": "racer_x.jpg",
+        "seller_name": "Playtech Toys",
+        "seller_email": "sales@playtechtoys.com",
+        "price": 79.99,
+        "rating": 4.7,
+        "quantity": 6,
+        "description": "Get ready for high-speed racing with RacerX! This remote-controlled robot features powerful motors, responsive controls, and aerodynamic design. RacerX can reach impressive speeds, perform daring stunts, and dominate any race track. Experience the thrill of victory with RacerX!"
+      },
+      {
+        "id": 10,
+        "name": "PowerGlider",
+        "picture": "power_glider.jpg",
+        "seller_name": "TechToys Inc.",
+        "seller_email": "info@techtoys.com",
+        "price": 39.99,
+        "rating": 4.2,
+        "quantity": 10,
+        "description": "Conquer the skies with PowerGlider! This remote-controlled robot features wings that spread and glide through the air. It offers precise controls, a built-in camera, and live video streaming capability. PowerGlider is perfect for aerial exploration and capturing breathtaking aerial shots!"
+      }
+    ]
+  },
+  {
+    "category_id": 3,
+    "name": "Transforming Robots",
+    "robots": [
+      {
+        "id": 11,
+        "name": "MegaForm",
+        "picture": "mega_form.jpg",
+        "seller_name": "Playtech Toys",
+        "seller_email": "sales@playtechtoys.com",
+        "price": 89.99,
+        "rating": 4.7,
+        "quantity": 5,
+        "description": "Unlock the power of transformation with MegaForm! This incredible robot can morph into various forms, from a mighty warrior to a fast-paced vehicle. With its advanced engineering and intricate design, MegaForm offers endless possibilities for imaginative play and adventure."
+      },
+      {
+        "id": 12,
+        "name": "RoboDino",
+        "picture": "robo_dino.jpg",
+        "seller_name": "TechToys Inc.",
+        "seller_email": "info@techtoys.com",
+        "price": 39.99,
+        "rating": 4.4,
+        "quantity": 7,
+        "description": "Get ready for prehistoric fun with RoboDino! This transforming robot can switch between a fearsome dinosaur and a futuristic robot. RoboDino features interactive sounds, LED lights, and articulated limbs, making it a must-have companion for any young dino-enthusiast!"
+      },
+      {
+        "id": 13,
+        "name": "TechTank",
+        "picture": "tech_tank.jpg",
+        "seller_name": "RoboToys Corp.",
+        "seller_email": "sales@robotoys.com",
+        "price": 59.99,
+        "rating": 4.0,
+        "quantity": 10,
+        "description": "Command the battlefield with TechTank! This transforming robot is a formidable tank equipped with realistic sound effects, moving turrets, and an array of weaponry. Whether in robot or tank form, TechTank is ready to roll out and dominate any mission!"
+      },
+      {
+        "id": 14,
+        "name": "TransformerX",
+        "picture": "transformer_x.jpg",
+        "seller_name": "Playtech Toys",
+        "seller_email": "sales@playtechtoys.com",
+        "price": 69.99,
+        "rating": 4.5,
+        "quantity": 6,
+        "description": "Witness the ultimate transformation with TransformerX! This robot can morph into various forms, seamlessly switching between humanoid, vehicle, and animal modes. TransformerX combines versatility, strength, and advanced robotics to provide an awe-inspiring play experience."
+      },
+      {
+        "id": 15,
+        "name": "DinoBot",
+        "picture": "dino_bot.jpg",
+        "seller_name": "TechToys Inc.",
+        "seller_email": "info@techtoys.com",
+        "price": 49.99,
+        "rating": 4.3,
+        "quantity": 8,
+        "description": "Roar into action with DinoBot! This transforming robot brings the world of dinosaurs to life. It can transform from a mighty robotic warrior into a fearsome T-Rex. DinoBot features sound effects, glowing LED eyes, and interactive responses, making it a thrilling companion for any young adventurer!"
+      }
+    ]
+  }
+]
