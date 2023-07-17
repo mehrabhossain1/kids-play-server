@@ -27,6 +27,7 @@ async function run() {
     await client.connect();
 
     const toysCollection = client.db("toyMarketPlace").collection("toys");
+    const myToysCollection = client.db("toyMarketPlace").collection("myToys");
 
     // all toys
     app.get("/toys", async (req, res) => {
@@ -43,10 +44,16 @@ async function run() {
     });
 
     // add a toy
-    app.post("/toys", async (req, res) => {
+    app.post("/myToys", async (req, res) => {
       const toy = req.body;
       console.log(toy);
-      const result = await toysCollection.insertOne(toy);
+      const result = await myToysCollection.insertOne(toy);
+      res.send(result);
+    });
+
+    // my toys
+    app.get("/myToys", async (req, res) => {
+      const result = await myToysCollection.find({}).toArray();
       res.send(result);
     });
 
