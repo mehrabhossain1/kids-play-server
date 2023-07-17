@@ -53,6 +53,7 @@ async function run() {
 
     // my toys
     app.get("/myToys", async (req, res) => {
+      console.log(req.query);
       const result = await myToysCollection.find({}).toArray();
       res.send(result);
     });
