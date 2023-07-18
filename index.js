@@ -53,12 +53,22 @@ async function run() {
 
     // my toys
     app.get("/myToys", async (req, res) => {
-      console.log(req.query.email);
-      let query = {};
-      if (req.query?.email) {
-        query = { email: req.query.email };
-      }
-      const result = await myToysCollection.find(query).toArray();
+      const result = await myToysCollection.find().toArray();
+      res.send(result);
+    });
+
+    // mt toys update
+    app.patch("/myToys/:id", async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: new ObjectId(id) };
+      const update = req.body;
+      console.log(update);
+      const updateDoc = {
+        $set: {
+          status: update.status,
+        },
+      };
+      const result = await myToysCollection.updateOne(filter, updateDoc);
       res.send(result);
     });
 
