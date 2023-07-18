@@ -59,20 +59,20 @@ async function run() {
     app.get("/myToys/:email", async (req, res) => {
       const email = req.params.email;
       // console.log(email);
-      const result = await myToysCollection.find({seller_email:email}).toArray();
+      const result = await myToysCollection
+        .find({ seller_email: email })
+        .toArray();
       res.send(result);
     });
 
     // mt toys update
-    app.patch("/myToys/:id", async (req, res) => {
+    app.put("/myToys/:id", async (req, res) => {
       const id = req.params.id;
+      const data = req.body;
       const filter = { _id: new ObjectId(id) };
-      const update = req.body;
-      console.log(update);
+
       const updateDoc = {
-        $set: {
-          status: update.status,
-        },
+        $set: data,
       };
       const result = await myToysCollection.updateOne(filter, updateDoc);
       res.send(result);
